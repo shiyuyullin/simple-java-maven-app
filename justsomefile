@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven_3.9.8' // Replace with the specific Maven tool name and version
+        maven 'Maven3.9.8' // Replace with the specific Maven tool name and version
     }
 
     environment {
